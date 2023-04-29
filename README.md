@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Schismond/results-summary-component-main/)
-- Live Site URL: [Add live site URL here](https://schismond.github.io/results-summary-component-main/)
+- Solution URL: [GithubRepo](https://github.com/Schismond/results-summary-component-main/)
+- Live Site URL: [Live Preview](https://schismond.github.io/results-summary-component-main/)
 
 ## My process
 
