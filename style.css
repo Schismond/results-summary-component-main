@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk';
+    text-transform: capitalize;
+}
+
+:root{
+    --reaction: #ee0000;
+    --memory: #FFB21E;
+    --verbal :#00BB8F;
+    --visual : #1125D6;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rside{
+    flex: 1;
+    padding: 24px;
+}
+
+.lside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-image:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 24px;
+    padding: 24px;
+    color: white;
+}
+
+.stat{
+    padding: 22px;
+    margin: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+
+.right , .left{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-weight: 800;
+}
+
+span{
+    color: hsla(0, 0%, 0%, 0.7);
+    font-weight: 500;
+}
+
+button{
+    cursor: pointer;
+    padding: 22px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 35px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+   background-color: #00BB8F;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+.faded{
+    color: hsla(100, 100%, 100%, 0.7);
+}
+
+h1{
+    font-size: 4em;
+}
+
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+        flex-direction: column;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
+
+    .lside{
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    .rside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer{
+        display: none;
+    }
+
+    button{
+        width: 80%;
+        text-align: center;
+        align-self: center;
+        border: none;
+    }
+    .stat{
+        margin: 12px 0px;
+    }   
+}
