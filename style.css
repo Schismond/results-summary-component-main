@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Hanken Grotesk';
+    font-family: 'Hanken Grotesk','Roboto', 'Open Sans', 'Montserrat', 'Lato', 'Arial', sans-serif;
     text-transform: capitalize;
 }
 
