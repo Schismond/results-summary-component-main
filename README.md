@@ -80,4 +80,4 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [ChatGPT](https://www.chatgpt.com) - This helped me to write my HTML in Semantic and to avoid spending my time googling my issues
+- [ChatGPT](https://www.chatgpt.com) - This helped me to write Semantic HTML and to spend less time debbuging  .
